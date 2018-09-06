@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>sampleBoardInsertTS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-09-05T17:25:15</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>0bfa6785-4208-443b-b747-788528bcce71</testSuiteGuid>
+   <testCaseLink>
+      <guid>1f08221d-a397-42e7-be30-956bf9dffdff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/SampleBoardInsert</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>423d8dd1-8883-4adc-a7f8-5ae6992ea786</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/sampleBoardInsertDF</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>423d8dd1-8883-4adc-a7f8-5ae6992ea786</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>subject</value>
+         <variableId>c4921848-6fea-4d05-be8d-b279f32d874e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>423d8dd1-8883-4adc-a7f8-5ae6992ea786</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>1bcc210f-4637-40e4-8674-2345f228a4dc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>423d8dd1-8883-4adc-a7f8-5ae6992ea786</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>content</value>
+         <variableId>40acc893-50f7-4402-b882-e31541a00933</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

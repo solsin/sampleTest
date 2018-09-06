@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SampleBoardInsert</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6ceb148-b02f-4ed4-841d-016a50e385b4</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>c4921848-6fea-4d05-be8d-b279f32d874e</id>
+      <masked>false</masked>
+      <name>i_subject</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>1bcc210f-4637-40e4-8674-2345f228a4dc</id>
+      <masked>false</masked>
+      <name>i_userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'3'</defaultValue>
+      <description></description>
+      <id>40acc893-50f7-4402-b882-e31541a00933</id>
+      <masked>false</masked>
+      <name>i_content</name>
+   </variable>
+</TestCaseEntity>

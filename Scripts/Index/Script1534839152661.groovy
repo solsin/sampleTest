@@ -23,14 +23,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.siteUrl)
 
+CustomKeywords.'sample.DB.initDB'('111')
+
 WebUI.click(findTestObject('Object Repository/Index/Page_Spring Boot Thymeleaf Hello Wo/h1_Spring Boot Web Thymeleaf W'))
 
 WebUI.click(findTestObject('Object Repository/Index/Page_Spring Boot Thymeleaf Hello Wo/span_Message Hello World'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Index/Page_Spring Boot Thymeleaf Hello Wo/a_Sample Board'), 'href', 'http://localhost:8090/sampleBoard/',
-	0)
+WebUI.verifyElementAttributeValue(findTestObject('Index/Page_Spring Boot Thymeleaf Hello Wo/a_Sample Board'), 'href', 'http://localhost:8090/sampleBoard/', 
+    0)
 
 href = WebUI.getAttribute(findTestObject('Index/Page_Spring Boot Thymeleaf Hello Wo/a_Sample Board'), 'href')
+
 WebUI.verifyMatch(href, GlobalVariable.siteUrl + 'sampleBoard/', true)
 
 WebUI.closeBrowser()
